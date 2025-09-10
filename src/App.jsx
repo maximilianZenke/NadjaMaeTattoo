@@ -12,9 +12,7 @@ export default function App() {
         <img src={banner} alt="Banner" className="banner-img" />
       </div>
       <Carousel />
-      <div>
-        <h1>Test</h1>
-      </div>
+      <div style={{ height: '200px', width: '100%' }}></div>
     </div>
   );
 }
