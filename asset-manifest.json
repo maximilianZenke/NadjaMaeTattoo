@@ -1,22 +1,20 @@
 {
   "files": {
-    "main.css": "/NadjaMaeTattoo/static/css/main.70c6a030.css",
-    "main.js": "/NadjaMaeTattoo/static/js/main.d3ff2f13.js",
+    "main.css": "/NadjaMaeTattoo/static/css/main.ec2184b4.css",
+    "main.js": "/NadjaMaeTattoo/static/js/main.c14a5e39.js",
     "static/js/453.1dcbed21.chunk.js": "/NadjaMaeTattoo/static/js/453.1dcbed21.chunk.js",
-    "static/media/banner_0.JPEG": "/NadjaMaeTattoo/static/media/banner_0.e2b0bf70cca373816f5e.JPEG",
-    "static/media/banner_5.JPEG": "/NadjaMaeTattoo/static/media/banner_5.e1f44fb4689cb1a6d879.JPEG",
     "static/media/banner_2.JPEG": "/NadjaMaeTattoo/static/media/banner_2.cdfca0852cfccf83fca3.JPEG",
     "static/media/banner_1.JPEG": "/NadjaMaeTattoo/static/media/banner_1.eff5286b1e72f3c3fac2.JPEG",
     "static/media/banner_4.JPEG": "/NadjaMaeTattoo/static/media/banner_4.70b5494c645d4a6eb77b.JPEG",
     "static/media/banner_3.JPEG": "/NadjaMaeTattoo/static/media/banner_3.162849d78ecaad14e3cc.JPEG",
     "static/media/logo.jpg": "/NadjaMaeTattoo/static/media/logo.9bf40781531a878ec8b9.jpg",
     "index.html": "/NadjaMaeTattoo/index.html",
-    "main.70c6a030.css.map": "/NadjaMaeTattoo/static/css/main.70c6a030.css.map",
-    "main.d3ff2f13.js.map": "/NadjaMaeTattoo/static/js/main.d3ff2f13.js.map",
+    "main.ec2184b4.css.map": "/NadjaMaeTattoo/static/css/main.ec2184b4.css.map",
+    "main.c14a5e39.js.map": "/NadjaMaeTattoo/static/js/main.c14a5e39.js.map",
     "453.1dcbed21.chunk.js.map": "/NadjaMaeTattoo/static/js/453.1dcbed21.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.70c6a030.css",
-    "static/js/main.d3ff2f13.js"
+    "static/css/main.ec2184b4.css",
+    "static/js/main.c14a5e39.js"
   ]
 }
