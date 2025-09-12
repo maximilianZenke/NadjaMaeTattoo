@@ -60,7 +60,8 @@
 @media (max-width: 500px) {
   .aboutme-heading {
     top: -100px;
-    left: 100px;
+    left: 50%;
+    transform: translate(-50%);
     height: 220px;
   }
 
