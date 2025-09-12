@@ -10,7 +10,8 @@ export default function Carousel() {
   if (banners.length === 0) return null;
 
   return (
-    <div className="carousel-wrapper">
+    <>
+    <div id="tattoos" /><div className="carousel-wrapper">
       <div className="carousel-container">
         <div id="carouselExample" className="carousel slide" data-bs-ride="carousel">
           <div className="carousel-inner">
@@ -49,6 +50,6 @@ export default function Carousel() {
           </div>
         </div>
       </div>
-    </div>
+    </div></>
   );
 }
