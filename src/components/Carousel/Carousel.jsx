@@ -20,7 +20,7 @@ export default function Carousel() {
                 key={index}
                 className={`carousel-item ${index === 0 ? 'active' : ''}`}
               >
-                <img src={img} alt={`Slide ${index + 1}`} />
+                <img src={img} alt={`Slide ${index + 1}`} loading="lazy" />
               </div>
             ))}
           </div>

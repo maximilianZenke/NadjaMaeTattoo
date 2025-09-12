@@ -9,7 +9,7 @@ export default function AboutMe() {
     <div id="about" /><div className="aboutme-wrapper">
       <div className="aboutme-container row align-items-center">
         <div className="col-md-6 aboutme-text">
-          <img src={ueberMich} alt="Über mich" className="aboutme-heading" />
+          <img src={ueberMich} alt="Über mich" className="aboutme-heading" loading="lazy"/>
           <p>
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
@@ -19,7 +19,7 @@ export default function AboutMe() {
           </p>
         </div>
         <div className="col-md-6 text-center">
-          <img src={frau} alt="Tattoo Künstlerin" className="aboutme-img" />
+          <img src={frau} alt="Tattoo Künstlerin" className="aboutme-img" loading="lazy"/>
         </div>
       </div>
     </div>

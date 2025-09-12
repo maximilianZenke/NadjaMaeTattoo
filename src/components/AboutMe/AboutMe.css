@@ -57,6 +57,20 @@
   }
 }
 
+@media (max-width: 767px) {
+  .aboutme-heading {
+    top: -150px;
+    left: 50%;
+    transform: translate(-50%);
+    height: 300px;
+  }   
+
+  .aboutme-text p {
+    margin-top: 130px;
+    font-size: 1rem;
+  }
+}
+
 @media (max-width: 500px) {
   .aboutme-heading {
     top: -100px;

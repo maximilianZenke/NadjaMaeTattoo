@@ -10,7 +10,7 @@ export default function App() {
     <div>
       <Navbar />
       <div className="banner-container">
-        <img src={banner} alt="Banner" className="banner-img" />
+        <img src={banner} alt="Banner" className="banner-img" loading="eager"/>
       </div>
       <Carousel />
       <div style={{ height: '50px', width: '100%' }}></div>
