@@ -4,8 +4,10 @@
   align-items: center;
   margin: 3rem 5rem;
   flex-wrap: wrap;
-  height: 100px;
+  height: 10px;
   width: 100%;
+  position: relative;
+  top: -20px;
 }
 
 .divider-icon:first-of-type {
@@ -20,10 +22,10 @@
 @media (max-width: 1920px) {
   .divider {
     padding-right: 450px;
+    top: -50px;
   }
   .divider-icon:first-of-type {
     transform: translateY(0.4rem);
-    height: auto;
   }
   .divider-icon:last-of-type {
     transform: translateY(-0.4rem);
@@ -34,6 +36,7 @@
 @media (max-width: 1024px) {
   .divider {
     padding-right: 130px;
+    top: -50px;
   }
   .divider-icon:first-of-type {
     transform: translateY(0.4rem);
@@ -53,19 +56,22 @@
     transform: translateY(-0.3rem);
     margin-left: 1.5rem;
     height: auto;
+    max-width: 40px;
   }
 }
 
 @media (max-width: 480px) {
   .divider {
     padding-right: 110px;
+    top: -30px;
   }
   .divider-icon:first-of-type {
-    transform: translateY(0.2rem);
+    transform: translateY(2rem);
     height: auto;
+    max-width: 40px;
   }
   .divider-icon:last-of-type {
-    transform: translateY(-0.2rem);
-    margin-left: 1rem;
+    transform: translateY(-0.8rem);
+    margin-left: 0.2rem;
   }
 }
