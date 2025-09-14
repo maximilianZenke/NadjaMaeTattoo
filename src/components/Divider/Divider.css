@@ -33,6 +33,21 @@
   }
 }
 
+@media (max-width: 1300px) {
+  .divider {
+    padding-right: 300px;
+    top: -50px;
+  }
+  .divider-icon:first-of-type {
+    transform: translateY(0.4rem);
+    height: auto;
+  }
+  .divider-icon:last-of-type {
+    transform: translateY(-0.4rem);
+    margin-left: 2rem;
+  }
+}
+
 @media (max-width: 1024px) {
   .divider {
     padding-right: 130px;

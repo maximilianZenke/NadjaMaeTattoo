@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Carousel from './components/Carousel';
 import AboutMe from "./components/AboutMe/AboutMe";
 import Divider from "./components/Divider/Divider";
+import Studio from "./components/Studio/Studio";
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
       <div style={{ height: '10px', width: '100%' }}></div>
       <AboutMe />
       <div style={{ height: '10px', width: '100%' }}></div>
+      <Studio />
     </div>
   );
 }
