@@ -17,8 +17,8 @@
 
 .aboutme-heading {
   position: absolute;
-  top: -170px;
-  left: 45%;
+  top: -150px;
+  left: 32%;
   transform: translateX(-50%);
   height: 450px;
   z-index: 2;
