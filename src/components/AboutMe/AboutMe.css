@@ -138,9 +138,9 @@
 
 @media (max-width: 500px) {
   .aboutme-heading {
-    top: -120px;
-    left: 110px;
-    height: 220px;
+    top: -90px;
+    left: 100px;
+    height: 190px;
   }
 
   .aboutme-greeting {
