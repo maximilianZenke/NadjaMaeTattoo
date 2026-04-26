@@ -15,7 +15,6 @@
   overflow: visible;
 }
 
-/* Überschrift bleibt wie gehabt */
 .aboutme-heading {
   position: absolute;
   top: -170px;
@@ -24,8 +23,6 @@
   height: 450px;
   z-index: 2;
 }
-
-/* ---------- Neu: Hero-Bereich mit Greeting + Foto ---------- */
 
 .aboutme-top {
   display: grid;
@@ -45,7 +42,6 @@
   line-height: 1.1;
   color: white;
   padding-top: 200px;
-  padding-left: 20px;
 }
 
 .aboutme-greeting span {
@@ -58,15 +54,11 @@
   border-radius: 0.5rem;
 }
 
-/* ---------- Neu: Trennlinie ---------- */
-
 .aboutme-divider {
   border: none;
   border-top: 1px solid rgba(255, 255, 255, 0.15);
   margin: 0 0 1rem;
 }
-
-/* ---------- Neu: Zweispaltige Textblöcke ---------- */
 
 .aboutme-columns {
   column-count: 2;
@@ -96,8 +88,6 @@
   opacity: 0.88;
 }
 
-/* ---------- Responsive ---------- */
-
 @media (max-width: 960px) {
   .aboutme-heading {
     top: -150px;
@@ -114,16 +104,31 @@
 }
 
 @media (max-width: 767px) {
+  .aboutme-heading {
+    top: -90px;
+    left: 110px;
+    height: 220px;
+  }
+
   .aboutme-top {
     grid-template-columns: 1fr;
   }
 
-  .aboutme-columns {
-    column-count: 1;
+  .aboutme-top .text-center {
+    order: 1;
+  }
+
+  .aboutme-text {
+    order: 2;
   }
 
   .aboutme-greeting {
     font-size: 2rem;
+    padding-top: 1rem;
+  }
+
+  .aboutme-columns {
+    column-count: 1;
   }
 
   .aboutme-block p {
@@ -133,12 +138,14 @@
 
 @media (max-width: 500px) {
   .aboutme-heading {
-    top: -100px;
+    top: -120px;
+    left: 110px;
     height: 220px;
   }
 
   .aboutme-greeting {
     font-size: 1.8rem;
+    padding-top: 0.5rem;
   }
 
   .aboutme-container {

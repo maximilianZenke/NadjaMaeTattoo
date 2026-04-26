@@ -81,16 +81,21 @@
     flex-direction: column;
   }
 
+  .studio-image-col {
+    order: 1;
+  }
+
   .studio-text-col {
+    order: 2;
     padding: 1.5rem;
   }
 
   .studio-img {
     width: 100%;
-    height: auto;
-    object-fit: contain;
-    border-radius: 0.5rem;
-    margin-top: 1rem;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 1rem 1rem 0 0;
+    margin-top: 0;
   }
 }
 
