@@ -20,9 +20,9 @@ export default function AboutMe() {
                     <div className="aboutme-top">
                         <div className="aboutme-text">
                             <p className="aboutme-greeting">
-                                Hi,<br />
-                                ich bin<br />
-                                <span>Nadja.</span>
+                                <span>Hi,</span>
+                                <span>ich bin</span>
+                                <span className="name">Nadja.</span>
                             </p>
                         </div>
 

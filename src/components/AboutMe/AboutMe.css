@@ -37,6 +37,8 @@
 }
 
 .aboutme-greeting {
+  display: flex;
+  flex-direction: column;
   font-size: 5.2rem;
   font-weight: 800;
   line-height: 1.1;
@@ -44,7 +46,7 @@
   padding-top: 200px;
 }
 
-.aboutme-greeting span {
+.aboutme-greeting .name {
   color: #fbbf24;
 }
 
@@ -144,6 +146,9 @@
   }
 
   .aboutme-greeting {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem;
     font-size: 1.8rem;
     padding-top: 0.5rem;
   }
