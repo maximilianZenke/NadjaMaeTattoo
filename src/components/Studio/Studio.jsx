@@ -17,7 +17,7 @@ export default function Studio() {
             <p className="studio-body">
               Zusammen mit zwei Kolleg*innen bin ich Hauptverantwortliche im Tattoo Kollektiv <span className="studio-intro-name">Villa bunter Hund, </span>
               ein Ort für gemeinschaftliches, kreatives Arbeiten in gemütlicher Atmosphäre, ein bisschen versteckt in Tübingen-Lustnau. Nur auf Termin geöffnet, aber jeden ersten Samstag im Monat heißen wir euch bei{" "}
-              <span className="studio-highlight">Tats'n Tea</span>{" "}
+              <span className="studio-highlight">Tats'n'Tea</span>{" "}
               willkommen: vorbeischauen, kennenlernen, beraten oder tätowieren lassen.
             </p>
           </div>
