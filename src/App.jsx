@@ -1,6 +1,6 @@
 import React from "react";
 import './App.css';
-import banner from './logo.jpg';
+import banner from './logo_2.jpg';
 import Navbar from './components/Navbar';
 import Carousel from './components/Carousel';
 import AboutMe from "./components/AboutMe/AboutMe";
