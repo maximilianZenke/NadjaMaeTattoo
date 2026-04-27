@@ -5,21 +5,25 @@ import Navbar from './components/Navbar';
 import Carousel from './components/Carousel';
 import AboutMe from "./components/AboutMe/AboutMe";
 import Divider from "./components/Divider/Divider";
+import Divider_mirrored from "./components/Divider_mirrored/Dm";
 import Studio from "./components/Studio/Studio";
+import Booking from "./components/Booking/Booking";
 
 export default function App() {
   return (
     <div>
       <Navbar />
       <div className="banner-container">
-        <img src={banner} alt="Banner" className="banner-img" loading="eager"/>
+        <img src={banner} alt="Banner" className="banner-img" loading="eager" />
       </div>
       <Carousel />
-      < Divider /> 
+      < Divider />
       <div style={{ height: '10px', width: '100%' }}></div>
       <AboutMe />
       <div style={{ height: '10px', width: '100%' }}></div>
       <Studio />
+      < Divider_mirrored />
+      <Booking />
     </div>
   );
 }

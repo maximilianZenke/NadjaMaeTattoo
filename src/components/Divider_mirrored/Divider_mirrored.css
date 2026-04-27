@@ -1,0 +1,135 @@
+.divider-mirrored {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 3rem 5rem;
+  flex-wrap: wrap;
+  height: 10px;
+  width: 100%;
+  position: relative;
+  top: -20px;
+}
+
+.divider-mirrored-icon:first-of-type {
+  transform: translateY(-0.5rem);
+  margin-right: 3rem;
+}
+
+.divider-mirrored-icon:last-of-type {
+  transform: translateY(0.5rem);
+}
+
+@media (min-width: 1921px) {
+  .divider-mirrored {
+    padding-left: 910px;
+    top: -50px;
+  }
+  .divider-mirrored-icon:first-of-type {
+    transform: translateY(-0.4rem);
+    margin-right: 1rem;
+  }
+  .divider-mirrored-icon:last-of-type {
+    transform: translateY(0.4rem);
+  }
+}
+
+@media (max-width: 1920px) {
+  .divider-mirrored {
+    padding-left: 450px;
+    top: -50px;
+  }
+  .divider-mirrored-icon:first-of-type {
+    transform: translateY(-0.4rem);
+    margin-right: 1rem;
+  }
+  .divider-mirrored-icon:last-of-type {
+    transform: translateY(0.4rem);
+  }
+}
+
+@media (max-width: 1600px) {
+  .divider-mirrored {
+    padding-left: 300px;
+    top: -50px;
+  }
+  .divider-mirrored-icon:first-of-type {
+    transform: translateY(-0.4rem);
+    margin-right: 1rem;
+  }
+  .divider-mirrored-icon:last-of-type {
+    transform: translateY(0.4rem);
+  }
+}
+
+@media (max-width: 1300px) {
+  .divider-mirrored {
+    padding-left: 300px;
+    top: -50px;
+  }
+  .divider-mirrored-icon:first-of-type {
+    transform: translateY(-0.4rem);
+    height: auto;
+    margin-right: 2rem;
+  }
+  .divider-mirrored-icon:last-of-type {
+    transform: translateY(0.4rem);
+  }
+}
+
+@media (max-width: 1100px) {
+  .divider-mirrored {
+    padding-left: 300px;
+    top: -50px;
+  }
+  .divider-mirrored-icon:first-of-type {
+    transform: translateY(-0.4rem);
+    height: auto;
+    margin-right: 2rem;
+  }
+  .divider-mirrored-icon:last-of-type {
+    transform: translateY(0.4rem);
+  }
+}
+
+@media (max-width: 1024px) {
+  .divider-mirrored {
+    padding-left: 130px;
+    top: -50px;
+  }
+  .divider-mirrored-icon:first-of-type {
+    transform: translateY(-0.4rem);
+    height: auto;
+    margin-right: 2rem;
+  }
+  .divider-mirrored-icon:last-of-type {
+    transform: translateY(0.4rem);
+  }
+}
+
+@media (max-width: 768px) {
+  .divider-mirrored-icon:first-of-type {
+    transform: translateY(-0.3rem);
+    margin-right: 1.5rem;
+    height: auto;
+    max-width: 40px;
+  }
+  .divider-mirrored-icon:last-of-type {
+    transform: translateY(0.3rem);
+  }
+}
+
+@media (max-width: 480px) {
+  .divider-mirrored {
+    padding-left: 110px;
+    top: -30px;
+  }
+  .divider-mirrored-icon:first-of-type {
+    transform: translateY(-0.8rem);
+    margin-right: 0.2rem;
+  }
+  .divider-mirrored-icon:last-of-type {
+    transform: translateY(2rem);
+    height: auto;
+    max-width: 40px;
+  }
+}
