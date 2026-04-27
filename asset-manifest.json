@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/NadjaMaeTattoo/static/css/main.96dbe869.css",
-    "main.js": "/NadjaMaeTattoo/static/js/main.99659b20.js",
+    "main.js": "/NadjaMaeTattoo/static/js/main.b917549f.js",
     "static/js/453.1dcbed21.chunk.js": "/NadjaMaeTattoo/static/js/453.1dcbed21.chunk.js",
     "static/media/Studio.JPEG": "/NadjaMaeTattoo/static/media/Studio.037e74d60d4b6e88fdd1.JPEG",
     "static/media/banner_2.JPEG": "/NadjaMaeTattoo/static/media/banner_2.cdfca0852cfccf83fca3.JPEG",
@@ -14,11 +14,11 @@
     "static/media/logo.jpg": "/NadjaMaeTattoo/static/media/logo.9bf40781531a878ec8b9.jpg",
     "index.html": "/NadjaMaeTattoo/index.html",
     "main.96dbe869.css.map": "/NadjaMaeTattoo/static/css/main.96dbe869.css.map",
-    "main.99659b20.js.map": "/NadjaMaeTattoo/static/js/main.99659b20.js.map",
+    "main.b917549f.js.map": "/NadjaMaeTattoo/static/js/main.b917549f.js.map",
     "453.1dcbed21.chunk.js.map": "/NadjaMaeTattoo/static/js/453.1dcbed21.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.96dbe869.css",
-    "static/js/main.99659b20.js"
+    "static/js/main.b917549f.js"
   ]
 }
