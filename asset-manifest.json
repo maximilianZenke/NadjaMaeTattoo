@@ -1,24 +1,37 @@
 {
   "files": {
-    "main.css": "/NadjaMaeTattoo/static/css/main.c43337fe.css",
-    "main.js": "/NadjaMaeTattoo/static/js/main.bffe91b7.js",
+    "main.css": "/NadjaMaeTattoo/static/css/main.56012820.css",
+    "main.js": "/NadjaMaeTattoo/static/js/main.0b26f107.js",
     "static/js/453.1dcbed21.chunk.js": "/NadjaMaeTattoo/static/js/453.1dcbed21.chunk.js",
     "static/media/Studio.JPEG": "/NadjaMaeTattoo/static/media/Studio.037e74d60d4b6e88fdd1.JPEG",
-    "static/media/banner_2.JPEG": "/NadjaMaeTattoo/static/media/banner_2.cdfca0852cfccf83fca3.JPEG",
-    "static/media/banner_1.JPEG": "/NadjaMaeTattoo/static/media/banner_1.eff5286b1e72f3c3fac2.JPEG",
-    "static/media/banner_4.JPEG": "/NadjaMaeTattoo/static/media/banner_4.70b5494c645d4a6eb77b.JPEG",
-    "static/media/banner_3.JPEG": "/NadjaMaeTattoo/static/media/banner_3.162849d78ecaad14e3cc.JPEG",
+    "static/media/Foto 07.10.24, 10 18 42.jpg": "/NadjaMaeTattoo/static/media/Foto 07.10.24, 10 18 42.69e83b798319440f5285.jpg",
+    "static/media/Foto 16.01.26, 13 43 01.jpg": "/NadjaMaeTattoo/static/media/Foto 16.01.26, 13 43 01.d5dd93390451589661c0.jpg",
+    "static/media/Foto 05.09.25, 18 06 08.jpg": "/NadjaMaeTattoo/static/media/Foto 05.09.25, 18 06 08.79be4bca7d5915bbcf1a.jpg",
+    "static/media/logo_2.jpg": "/NadjaMaeTattoo/static/media/logo_2.183c91fc38d8a5dee12e.jpg",
+    "static/media/Foto 11.09.25, 16 10 27.jpg": "/NadjaMaeTattoo/static/media/Foto 11.09.25, 16 10 27.282efdf97f028efab33a.jpg",
+    "static/media/Foto 31.10.25, 17 58 14.jpg": "/NadjaMaeTattoo/static/media/Foto 31.10.25, 17 58 14.0e4754a332425add9db5.jpg",
+    "static/media/Foto 21.01.25, 20 10 18.jpg": "/NadjaMaeTattoo/static/media/Foto 21.01.25, 20 10 18.dffee61a3e9a5cba8a58.jpg",
+    "static/media/Foto 04.04.24, 20 33 52.jpg": "/NadjaMaeTattoo/static/media/Foto 04.04.24, 20 33 52.f35ab0fa099617707532.jpg",
+    "static/media/Foto 02.01.25, 16 14 20.jpg": "/NadjaMaeTattoo/static/media/Foto 02.01.25, 16 14 20.86aabbfdf1d14cf65941.jpg",
+    "static/media/Foto 19.01.24, 15 47 30.jpg": "/NadjaMaeTattoo/static/media/Foto 19.01.24, 15 47 30.abe8e754d18ae2687bed.jpg",
+    "static/media/Foto 19.07.24, 14 08 24.jpg": "/NadjaMaeTattoo/static/media/Foto 19.07.24, 14 08 24.34542aff859ac93d9282.jpg",
+    "static/media/Foto 09.04.24, 17 11 52.jpg": "/NadjaMaeTattoo/static/media/Foto 09.04.24, 17 11 52.67f79823fdaea53795d6.jpg",
+    "static/media/Foto 27.05.25, 15 24 02.jpg": "/NadjaMaeTattoo/static/media/Foto 27.05.25, 15 24 02.615b6b62f964459913ff.jpg",
     "static/media/nadja.png": "/NadjaMaeTattoo/static/media/nadja.68b5667013f0ff5829ee.png",
+    "static/media/Foto 04.01.24, 13 25 08.jpg": "/NadjaMaeTattoo/static/media/Foto 04.01.24, 13 25 08.44967423d0b85858d16d.jpg",
+    "static/media/Foto 05.01.24, 15 23 31.jpg": "/NadjaMaeTattoo/static/media/Foto 05.01.24, 15 23 31.927b3c5513001e76235c.jpg",
+    "static/media/Foto 11.02.25, 17 53 06.jpg": "/NadjaMaeTattoo/static/media/Foto 11.02.25, 17 53 06.e7ac793b60736a58934e.jpg",
+    "static/media/Foto 13.09.24, 14 50 07.jpg": "/NadjaMaeTattoo/static/media/Foto 13.09.24, 14 50 07.d9788c3e633710b95b75.jpg",
+    "static/media/Foto 14.02.25, 19 22 43.jpg": "/NadjaMaeTattoo/static/media/Foto 14.02.25, 19 22 43.0df35f4d06ddd162915e.jpg",
     "static/media/ueberMich.png": "/NadjaMaeTattoo/static/media/ueberMich.e711498a4f67492fb1e3.png",
     "static/media/studio-text.png": "/NadjaMaeTattoo/static/media/studio-text.0be1c122acd825c5554b.png",
-    "static/media/logo.jpg": "/NadjaMaeTattoo/static/media/logo.9bf40781531a878ec8b9.jpg",
     "index.html": "/NadjaMaeTattoo/index.html",
-    "main.c43337fe.css.map": "/NadjaMaeTattoo/static/css/main.c43337fe.css.map",
-    "main.bffe91b7.js.map": "/NadjaMaeTattoo/static/js/main.bffe91b7.js.map",
+    "main.56012820.css.map": "/NadjaMaeTattoo/static/css/main.56012820.css.map",
+    "main.0b26f107.js.map": "/NadjaMaeTattoo/static/js/main.0b26f107.js.map",
     "453.1dcbed21.chunk.js.map": "/NadjaMaeTattoo/static/js/453.1dcbed21.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c43337fe.css",
-    "static/js/main.bffe91b7.js"
+    "static/css/main.56012820.css",
+    "static/js/main.0b26f107.js"
   ]
 }
