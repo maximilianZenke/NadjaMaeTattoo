@@ -59,8 +59,9 @@ export default function Booking() {
                     <div className="booking-content">
                         <p className="booking-title">Termin buchen</p>
                         <p className="booking-sub">
-                            Wenn ihr Lust auf ein Tattoo habt, oder Euch beraten lassen wollt,
-                            meldet Euch gerne bei mir!
+                            Folgt mir gerne auf Instagram um nichts zu verpassen.
+                            Wenn Ihr einen Termin vereinbaren oder Euch unverbindlich
+                            beraten lassen wollt, könnt ihr mir gerne eine Whatsapp oder Email schreiben.
                         </p>
 
                         <div className="booking-list">
