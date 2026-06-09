@@ -8,10 +8,32 @@ const banners = importAll(require.context('../../media/banner', false, /\.(png|j
 
 const MOBILE_BREAKPOINT = 992;
 
+// Alle Banner-Bilder im Hintergrund vorladen
+function preloadImages(urls) {
+  urls.forEach((url) => {
+    const img = new Image();
+    img.src = url;
+  });
+}
+
 export default function Carousel() {
   const [isMobile, setIsMobile] = useState(
     typeof window !== "undefined" ? window.innerWidth < MOBILE_BREAKPOINT : false
   );
+  const [imagesReady, setImagesReady] = useState(false);
+
+  // Bilder beim ersten Render vorladen
+  useEffect(() => {
+    let loaded = 0;
+    banners.forEach((url) => {
+      const img = new Image();
+      img.onload = img.onerror = () => {
+        loaded++;
+        if (loaded === banners.length) setImagesReady(true);
+      };
+      img.src = url;
+    });
+  }, []);
 
   useEffect(() => {
     const handleResize = () => setIsMobile(window.innerWidth < MOBILE_BREAKPOINT);
@@ -35,10 +57,8 @@ export default function Carousel() {
     <>
       <div id="tattoos" />
       <div className="carousel-wrapper">
-        {/* carousel-container ist der stabile Anker für die Buttons */}
         <div className="carousel-container">
 
-          {/* Buttons direkt im container — NICHT im Bootstrap-carousel */}
           <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
             <span className="carousel-control-prev-icon" aria-hidden="true"></span>
             <span className="visually-hidden">Previous</span>
@@ -48,7 +68,13 @@ export default function Carousel() {
             <span className="visually-hidden">Next</span>
           </button>
 
-          <div id="carouselExample" className="carousel slide" data-bs-ride="carousel">
+          {/* Carousel erst anzeigen wenn alle Bilder geladen sind */}
+          <div
+            id="carouselExample"
+            className="carousel slide"
+            data-bs-ride="carousel"
+            style={{ opacity: imagesReady ? 1 : 0, transition: "opacity 0.3s ease" }}
+          >
             <div className="carousel-inner">
               {slides.map((pair, index) => (
                 <div
@@ -58,7 +84,8 @@ export default function Carousel() {
                   <div className="carousel-slide-content">
                     {pair.map((img, imgIndex) => (
                       <div key={imgIndex} className="image-wrapper">
-                        <img src={img} alt="" loading="lazy" />
+                        {/* kein loading="lazy" — Bilder sind bereits vorgeladen */}
+                        <img src={img} alt="" />
                       </div>
                     ))}
                   </div>
@@ -66,6 +93,7 @@ export default function Carousel() {
               ))}
             </div>
           </div>
+
         </div>
       </div>
     </>
